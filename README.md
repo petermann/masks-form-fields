@@ -17,6 +17,6 @@ Add a class in the form field.
 ('.cpf').mask('000.000.000-00');  
 ('.cnpj').mask('00.000.000/0000-00');  
 ('.money').mask('000.000.000.000.000,00');  
-('.money2').mask(“#.##0,00”);  
+('.money2').mask('#.##0,00');  
 ('.ip_address').mask('099.099.099.099');  
 ('.percent').mask('##0,00%');  
