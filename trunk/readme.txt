@@ -30,8 +30,6 @@ Add a class in the form field.
 * ('.ip_address').mask('099.099.099.099');
 * ('.percent').mask('##0,00%');
 
-Credits for [jQuery Mask Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin)
-
 == Installation ==
 
 Installing "Masks Form Fields" can be done either by searching for "Masks Form Fields" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
@@ -58,3 +56,7 @@ This plugin to make masks on form fields and HTML elements.
 = 1.0 =
 * 2016-11-3
 * Initial release
+
+== Credits ==
+
+[jQuery Mask Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin)
