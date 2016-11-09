@@ -3,7 +3,7 @@ Masks Form Fields
 
 A jQuery Plugin to make masks on form fields and HTML elements for WordPress.
 
-[![masks-form-fields logo](assets/banner-772x250.png)](https://wordpress.org/plugins/masks-form-fields/)
+[![masks-form-fields logo](assets/banner-github.png)](https://wordpress.org/plugins/masks-form-fields/)
 
 Download the plugin via WordPress.org => https://wordpress.org/plugins/masks-form-fields/
 
