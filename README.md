@@ -33,3 +33,7 @@ Installing "Masks Form Fields" can be done either by searching for "Masks Form F
 1. Download the plugin via WordPress.org => https://wordpress.org/plugins/masks-form-fields/
 2. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
 3. Activate the plugin through the 'Plugins' menu in WordPress
+
+### Credits
+
+* [jQuery Mask Plugin](https://github.com/igorescobar/jQuery-Mask-Plugin)
