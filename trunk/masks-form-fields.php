@@ -1,13 +1,13 @@
 <?php
 /*
  * Plugin Name: Masks Form Fields
- * Version: 1.0
+ * Version: 1.1
  * Plugin URI: https://ivanpetermann.com.br/masks-form-fields/
  * Description: A jQuery Plugin to make masks on form fields and HTML elements for WordPress.
  * Author: Ivan Petermann
  * Author URI: https://ivanpetermann.com.br
  * Requires at least: 3.9
- * Tested up to: 4.6
+ * Tested up to: 4.8
  *
  * Text Domain: masks-form-fields
  * Domain Path: /languages/
