@@ -1,6 +1,6 @@
 === Masks Form Fields ===
 Contributors: ivanpetermann
-Donate link: https://ivanpetermann.com.br/donation
+Donate link: https://ivanpetermann.com/donation
 Tags: email, mask, form, input, field, phone, masks, fields, petermann
 Requires at least: 3.9
 Tested up to: 4.8
@@ -47,6 +47,10 @@ This plugin to make masks on form fields and HTML elements.
 
 == Changelog ==
 
+= 1.2 =
+* 2017-11-20
+* Tested in WordPress 4.9
+
 = 1.1 =
 * 2017-8-7
 * Bug fix: remove date and time mask on body class.
@@ -57,6 +61,10 @@ This plugin to make masks on form fields and HTML elements.
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.2 =
+* 2017-11-20
+* Tested in WordPress 4.9
 
 = 1.1 =
 * 2017-8-7
