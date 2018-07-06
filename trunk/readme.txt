@@ -3,8 +3,8 @@ Contributors: ivanpetermann
 Donate link: https://ivanpetermann.com/donation
 Tags: email, mask, form, input, field, phone, masks, fields, petermann
 Requires at least: 3.9
-Tested up to: 4.9
-Stable tag: 1.2
+Tested up to: 4.8
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
