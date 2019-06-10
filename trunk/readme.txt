@@ -3,8 +3,8 @@ Contributors: ivanpetermann
 Donate link: https://ivanpetermann.com/donation
 Tags: email, mask, form, input, field, phone, masks, fields, petermann
 Requires at least: 3.9
-Tested up to: 4.9
-Stable tag: 1.2
+Tested up to: 5.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,10 @@ Installing "Masks Form Fields" can be done either by searching for "Masks Form F
 This plugin to make masks on form fields and HTML elements.
 
 == Changelog ==
+
+= 1.3 =
+* 2019-06-10
+* Tested in WordPress 5.2
 
 = 1.2 =
 * 2017-11-20
