@@ -3,12 +3,13 @@ Contributors: ivanpetermann
 Donate link: https://ivanpetermann.com/donation
 Tags: email, mask, form, input, field, phone, masks, fields, petermann
 Requires at least: 3.9
-Tested up to: 5.2
-Stable tag: 1.3
+Tested up to: 5.5
+Requires PHP: 5.2.4
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A jQuery Plugin to make masks on form fields and HTML elements for WordPress.
+A plugin to add masks in the form’s fields.
 
 == Description ==
 
@@ -43,9 +44,14 @@ Installing "Masks Form Fields" can be done either by searching for "Masks Form F
 
 = What is the plugin for? =
 
-This plugin to make masks on form fields and HTML elements.
+This plugin to add masks in the form’s fields.
 
 == Changelog ==
+
+= 1.4 =
+* Updated Readme description
+* Updated jQuery Mask library
+* Tested in WordPress 5.5
 
 = 1.3 =
 * 2019-06-10
@@ -66,18 +72,10 @@ This plugin to make masks on form fields and HTML elements.
 
 == Upgrade Notice ==
 
-= 1.2 =
-* 2017-11-20
-* Tested in WordPress 4.9
-
-= 1.1 =
-* 2017-8-7
-* Bug fix: remove date and time mask on body class.
-* Add mask only span and input fields.
-
-= 1.0 =
-* 2016-11-3
-* Initial release
+= 1.4 =
+* Updated Readme description
+* Updated jQuery Mask library
+* Tested in WordPress 5.5
 
 == Credits ==
 
