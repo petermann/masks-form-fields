@@ -1,13 +1,13 @@
 <?php
 /*
  * Plugin Name: Masks Form Fields
- * Version: 1.4
+ * Version: 1.5
  * Plugin URI: https://ivanpetermann.com/masks-form-fields/
  * Description: A plugin to add masks in the form’s fields.
  * Author: Ivan Petermann
  * Author URI: https://ivanpetermann.com
  * Requires at least: 3.9
- * Tested up to: 5.5
+ * Tested up to: 5.7
  *
  * Text Domain: masks-form-fields
  * Domain Path: /languages/
@@ -18,7 +18,7 @@
  */	
 
 /*
-	Copyright 2020 Ivan Petermann  (email : contato@ivanpetermann.com)
+	Copyright 2021 Ivan Petermann  (email : contato@ivanpetermann.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -38,7 +38,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'MFF_VERSION', '1.4' );
+define( 'MFF_VERSION', '1.5' );
 define( 'MFF_PLUGIN', __FILE__ );
 define( 'MFF_PLUGIN_DIR', untrailingslashit( dirname( MFF_PLUGIN ) ) );
 if ( ! defined( 'MFF_LOAD_JS' ) ) {
@@ -76,7 +76,7 @@ function mff_enqueue_scripts() {
 		mff_plugin_url( 'includes/js/scripts.js' ),
 		array( 'jquery', 'jquery-mask-form' ), MFF_VERSION, $in_footer );
 
-	$_mff = 'loader';
+	$_mff = ['loader' => true];
 
 	wp_localize_script( 'masks-form-fields', '_mff', $_mff );
 

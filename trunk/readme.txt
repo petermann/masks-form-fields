@@ -3,8 +3,8 @@ Contributors: ivanpetermann
 Donate link: https://ivanpetermann.com/donation
 Tags: email, mask, form, input, field, phone, masks, fields, petermann
 Requires at least: 3.9
-Tested up to: 5.5
-Requires PHP: 5.2.4
+Tested up to: 5.7
+Requires PHP: 5.6
 Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -48,6 +48,10 @@ This plugin to add masks in the form’s fields.
 
 == Changelog ==
 
+= 1.5 =
+* Fixed the incorrect value in the localize script.
+* Tested in WordPress 5.7
+
 = 1.4 =
 * Updated Readme description
 * Updated jQuery Mask library
@@ -72,10 +76,9 @@ This plugin to add masks in the form’s fields.
 
 == Upgrade Notice ==
 
-= 1.4 =
-* Updated Readme description
-* Updated jQuery Mask library
-* Tested in WordPress 5.5
+= 1.5 =
+* Fixed the incorrect value in the localize script.
+* Tested in WordPress 5.7
 
 == Credits ==
 
