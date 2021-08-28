@@ -13,12 +13,19 @@ Download the plugin via WordPress.org => https://wordpress.org/plugins/masks-for
 
 Add a class in the form field.
 
+Example of use with [Contact Form 7](https://wordpress.org/plugins/contact-form-7/): 
+
+`[tel your-phone class:phone placeholder "Phone"]`
+
+Listing of classes available for use.
+
 ```
 ('span.start, input.start').mask('00/0000');
 ('span.date, input.date').mask('00/00/0000');
 ('span.time, input.time').mask('00:00:00');
 ('span.time2, input.time2').mask('00:00');
 ('input.date_time').mask('00/00/0000 00:00:00');
+('input.date_time2').mask('00/00/0000 00:00');
 ('input.cep').mask('00000-000');
 ('input.zip').mask('00000');
 ('input.phone').mask(PhoneMaskBehavior, nonoOptions);
@@ -32,11 +39,15 @@ Add a class in the form field.
 ('input.money2').mask('#.##0,00', { reverse: true });
 ('input.money3').mask('#,##0.00', { reverse: true });
 ('input.money4').mask('000,000,000,000,000.00', { reverse: true });
+('input.money5').mask('#.##0', { reverse: true });
+('input.money6').mask('#,##0', { reverse: true });
 ('input.ip_address').mask('099.099.099.099');
 ('input.percent').mask('##0,00%', { reverse: true });
 ('input.percent2').mask('##0.00%', { reverse: true });
 ('input.percent3').mask('990,0%', { reverse: true });
 ('input.percent4').mask('990.0%', { reverse: true });
+('input.percent5').mask('#,##0%', { reverse: true });
+('input.percent6').mask('#.##0%', { reverse: true });
 ```
 
 [*Click here*](https://gist.github.com/petermann/fd1a898e02ca91a0d7231a9f8ee662b4) for more details on how to add custom mask.

@@ -5,7 +5,7 @@ Tags: email, mask, form, input, field, phone, masks, fields, petermann
 Requires at least: 3.9
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 1.7
+Stable tag: 1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,15 +13,21 @@ A plugin to add masks in the form’s fields.
 
 == Description ==
 
-Basic Usage Examples
-
 Add a class in the form field.
 
-`('span.start, input.start').mask('00/0000');
+Example of use with [Contact Form 7](https://wordpress.org/plugins/contact-form-7/): 
+
+`[tel your-phone class:phone placeholder "Phone"]`
+
+Listing of classes available for use.
+
+`
+('span.start, input.start').mask('00/0000');
 ('span.date, input.date').mask('00/00/0000');
 ('span.time, input.time').mask('00:00:00');
 ('span.time2, input.time2').mask('00:00');
 ('input.date_time').mask('00/00/0000 00:00:00');
+('input.date_time2').mask('00/00/0000 00:00');
 ('input.cep').mask('00000-000');
 ('input.zip').mask('00000');
 ('input.phone').mask(PhoneMaskBehavior, nonoOptions);
@@ -35,11 +41,16 @@ Add a class in the form field.
 ('input.money2').mask('#.##0,00', { reverse: true });
 ('input.money3').mask('#,##0.00', { reverse: true });
 ('input.money4').mask('000,000,000,000,000.00', { reverse: true });
+('input.money5').mask('#.##0', { reverse: true });
+('input.money6').mask('#,##0', { reverse: true });
 ('input.ip_address').mask('099.099.099.099');
 ('input.percent').mask('##0,00%', { reverse: true });
 ('input.percent2').mask('##0.00%', { reverse: true });
 ('input.percent3').mask('990,0%', { reverse: true });
-('input.percent4').mask('990.0%', { reverse: true });`
+('input.percent4').mask('990.0%', { reverse: true });
+('input.percent5').mask('#,##0%', { reverse: true });
+('input.percent6').mask('#.##0%', { reverse: true });
+`
 
 [Click here](https://gist.github.com/petermann/fd1a898e02ca91a0d7231a9f8ee662b4) for more details on how to add custom mask.
 
@@ -63,6 +74,10 @@ This plugin to add masks in the form’s fields.
 [Click here](https://gist.github.com/petermann/fd1a898e02ca91a0d7231a9f8ee662b4) for more details on how to add custom mask.
 
 == Changelog ==
+
+= 1.8 =
+* Added five new mask formats. (date_time2, money5, money6, percent5, percent6)
+* Updated readme with usage example.
 
 = 1.7 =
 * Added new mask formats. (start, time2, zip, taxid, ssn, money3, money4, percent2, percent3, percent4)
@@ -98,8 +113,8 @@ This plugin to add masks in the form’s fields.
 
 == Upgrade Notice ==
 
-= 1.7 =
-* Added new mask formats.
+= 1.8 =
+* Added five new mask formats and usage example.
 
 == Credits ==
 
