@@ -5,7 +5,7 @@ Tags: email, mask, form, input, field, phone, masks, fields, petermann
 Requires at least: 3.9
 Tested up to: 5.9
 Requires PHP: 5.6
-Stable tag: 1.8
+Stable tag: 1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,10 @@ This plugin to add masks in the form’s fields.
 
 == Changelog ==
 
+= 1.9 =
+* Fixed conflict with another library.
+* Tested in WordPress 5.9
+
 = 1.8 =
 * Added five new mask formats. (date_time2, money5, money6, percent5, percent6)
 * Updated readme with usage example.
@@ -113,8 +117,9 @@ This plugin to add masks in the form’s fields.
 
 == Upgrade Notice ==
 
-= 1.8 =
-* Added five new mask formats and usage example.
+= 1.9 =
+* Fixed conflict with another library.
+* Tested in WordPress 5.9
 
 == Credits ==
 
