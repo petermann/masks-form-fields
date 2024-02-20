@@ -78,7 +78,7 @@ function mff_enqueue_scripts() {
 
 	$_mff = ['loader' => true];
 
-	wp_localize_script( 'masks-form-fields', '_mff', $_mff );
+	wp_add_inline_script( 'masks-form-fields', 'var _mff='.json_encode($_mff), 'before' );
 
 	do_action( 'mff_enqueue_scripts' );
 }
