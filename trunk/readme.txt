@@ -2,10 +2,10 @@
 Contributors: ivanpetermann
 Donate link: https://ivanpetermann.com/donation
 Tags: email, mask, form, input, field, phone, masks, fields, petermann
-Requires at least: 3.9
-Tested up to: 6.4
+Requires at least: 4.5
+Tested up to: 6.5
 Requires PHP: 5.6
-Stable tag: 1.9
+Stable tag: 1.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,11 @@ This plugin to add masks in the form’s fields.
 [Click here](https://gist.github.com/petermann/fd1a898e02ca91a0d7231a9f8ee662b4) for more details on how to add custom mask.
 
 == Changelog ==
+
+= 1.10 =
+* Replaced wp_localize_script with wp_add_inline_script. (commit#6f6dc2d)
+* Updated minimum WordPress version requirement from 3.9 to 4.5.
+* Tested in WordPress 6.5
 
 = 1.9 =
 * Fixed conflict with another library.
