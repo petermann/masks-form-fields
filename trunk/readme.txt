@@ -1,7 +1,7 @@
 === Masks Form Fields ===
 Contributors: ivanpetermann
 Donate link: https://ivanpetermann.com/donation
-Tags: email, mask, form, input, field, phone, masks, fields, petermann
+Tags: form, mask, phone, field, contact form 7
 Requires at least: 4.5
 Tested up to: 6.5
 Requires PHP: 5.6
