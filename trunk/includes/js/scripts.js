@@ -17,7 +17,7 @@
         $('input.date_time2').mff_mask('00/00/0000 00:00');
         $('input.cep').mff_mask('00000-000');
         $('input.zip').mff_mask('00000');
-        $('input.phone').mff_mask(PhoneMaskBehavior, nonoOptions);
+        $('input.phone, input[name="phonebr"]').mff_mask(PhoneMaskBehavior, nonoOptions);
         $('input.phone_us').mff_mask('(000) 000-0000');
         $('input.taxid').mff_mask('00-0000000');
         $('input.ssn').mff_mask('000-00-0000');
