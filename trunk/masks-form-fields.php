@@ -7,7 +7,7 @@
  * Author: Ivan Petermann
  * Author URI: https://ivanpetermann.com
  * Requires at least: 4.5
- * Tested up to: 6.5
+ * Tested up to: 6.6
  *
  * Text Domain: masks-form-fields
  * Domain Path: /languages/

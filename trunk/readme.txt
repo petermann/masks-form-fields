@@ -3,7 +3,7 @@ Contributors: ivanpetermann
 Donate link: https://ivanpetermann.com/donation
 Tags: form, mask, phone, field, contact form 7
 Requires at least: 4.5
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 5.6
 Stable tag: 1.11.1
 License: GPLv2 or later
