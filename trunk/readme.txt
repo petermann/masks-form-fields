@@ -3,9 +3,9 @@ Contributors: ivanpetermann
 Donate link: https://ivanpetermann.com/donation
 Tags: form, mask, phone, field, contact form 7
 Requires at least: 4.5
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.11.1
+Stable tag: 1.11.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,10 @@ This plugin to add masks in the form’s fields.
 [Click here](https://gist.github.com/petermann/fd1a898e02ca91a0d7231a9f8ee662b4) for more details on how to add custom mask.
 
 == Changelog ==
+
+= 1.11.2 =
+* Convert line endings from CRLF to LF
+* Tested in WordPress 6.7
 
 = 1.11.1 =
 * Fixed JS minification conflict: Added semicolon after JSON declaration in wp_add_inline_script. (commit#3529ce1)

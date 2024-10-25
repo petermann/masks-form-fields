@@ -1,13 +1,13 @@
 <?php
 /*
  * Plugin Name: Masks Form Fields
- * Version: 1.11.1
+ * Version: 1.11.2
  * Plugin URI: https://ivanpetermann.com/masks-form-fields/
  * Description: A plugin to add masks in the form’s fields.
  * Author: Ivan Petermann
  * Author URI: https://ivanpetermann.com
  * Requires at least: 4.5
- * Tested up to: 6.6
+ * Tested up to: 6.7
  *
  * Text Domain: masks-form-fields
  * Domain Path: /languages/
