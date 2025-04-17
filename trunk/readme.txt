@@ -137,9 +137,9 @@ This plugin to add masks in the form’s fields.
 
 == Upgrade Notice ==
 
-= 1.9 =
-* Fixed conflict with another library.
-* Tested in WordPress 5.9
+= 1.12.2 =
+* Add the clearIfNotMatch option to the Brazilian masks: CEP, CPF, CNPJ, and phone number.
+* Tested in WordPress 6.8
 
 == Credits ==
 
