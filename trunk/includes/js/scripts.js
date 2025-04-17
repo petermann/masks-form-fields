@@ -15,15 +15,15 @@
         $('span.time2, input.time2').mff_mask('00:00');
         $('input.date_time').mff_mask('00/00/0000 00:00:00');
         $('input.date_time2').mff_mask('00/00/0000 00:00');
-        $('input.cep').mff_mask('00000-000');
+        $('input.cep').mff_mask('00000-000', { clearIfNotMatch: true });
         $('input.zip').mff_mask('00000');
         $('input.phone, input[name="phonebr"]').mff_mask(PhoneMaskBehavior, nonoOptions);
         $('input.phone_us').mff_mask('(000) 000-0000');
         $('input.taxid').mff_mask('00-0000000');
         $('input.ssn').mff_mask('000-00-0000');
         $('input.mixed').mff_mask('AAA 000-S0S');
-        $('input.cpf').mff_mask('000.000.000-00', { reverse: true });
-        $('input.cnpj').mff_mask('00.000.000/0000-00', { reverse: true });
+        $('input.cpf').mff_mask('000.000.000-00', { reverse: true, clearIfNotMatch: true });
+        $('input.cnpj').mff_mask('00.000.000/0000-00', { reverse: true, clearIfNotMatch: true });
         $('input.money').mff_mask('000.000.000.000.000,00', { reverse: true });
         $('input.money2').mff_mask('#.##0,00', { reverse: true });
         $('input.money3').mff_mask('#,##0.00', { reverse: true });
@@ -45,7 +45,8 @@
         nonoOptions = {
             onKeyPress: function(val, e, field, options) {
                 field.mff_mask(PhoneMaskBehavior.apply({}, arguments), options);
-            }
+            },
+            clearIfNotMatch: true
         };
 
 })(jQuery);
