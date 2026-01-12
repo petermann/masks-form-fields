@@ -5,7 +5,7 @@ Tags: form, mask, phone, field, contact form 7
 Requires at least: 4.5
 Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 1.12.2
+Stable tag: 1.12.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,10 @@ This plugin to add masks in the form’s fields.
 
 == Changelog ==
 
+= 1.12.3 =
+* Fix plugin header license and domain path.
+* Tested in WordPress 6.9
+
 = 1.12.2 =
 * Add the clearIfNotMatch option to the Brazilian masks: CEP, CPF, CNPJ, and phone number.
 * Tested in WordPress 6.8
@@ -137,9 +141,9 @@ This plugin to add masks in the form’s fields.
 
 == Upgrade Notice ==
 
-= 1.12.2 =
-* Add the clearIfNotMatch option to the Brazilian masks: CEP, CPF, CNPJ, and phone number.
-* Tested in WordPress 6.8
+= 1.12.3 =
+* Fix plugin header license and domain path.
+* Tested in WordPress 6.9
 
 == Credits ==
 
