@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Masks Form Fields
- * Version: 1.12.3
+ * Version: 1.12.4
  * Plugin URI: https://ivanpetermann.com/masks-form-fields/
  * Description: A plugin to add masks in the form’s fields.
  * Author: Ivan Petermann
@@ -40,7 +40,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'MFF_VERSION', '1.12.2' );
+define( 'MFF_VERSION', '1.12.4' );
 define( 'MFF_PLUGIN', __FILE__ );
 define( 'MFF_PLUGIN_DIR', untrailingslashit( dirname( MFF_PLUGIN ) ) );
 if ( ! defined( 'MFF_LOAD_JS' ) ) {
